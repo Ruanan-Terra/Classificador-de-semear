@@ -20,3 +20,23 @@ Elas estão disponíveis para download abaixo da aula (se você puxar os dados d
 
 Caso queira uma outra solução, podemos olhar como referência a solução do usuário renjiabarai do kaggle no Notebook: https://www.kaggle.com/code/renjiabarai/crop-recommendation-prediction
 Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
+
+### Tecnologias utilizadas
+
+**Pandas:** Para tratamento e analise exploratória de dados
+
+**matplotlib - seaborn - plotly:** Para a criação de gráficos e analise de Outliers
+
+**sklearn:** Biblioteca python utilizada para trabalhar com ML
+
+**joblib:** Utilizado para armazenar o modelo ja treinado, assim podemos reutilizalo em outros projetos e ferramentas
+
+### - Parâmetros utilizados para avaliar os modelos
+
+**1. Accuracy (Acurácia):** A proporção de exemplos classificados corretamente em relação ao total de exemplos.
+
+**2. Precision (Precisão):** A proporção de exemplos positivos que foram classificados corretamente como positivos em relação a todos os exemplos classificados como positivos.
+
+**3. Recall (Revocação):** A proporção de exemplos positivos que foram classificados corretamente como positivos em relação a todos os exemplos que são realmente positivos.
+
+**4. F1-Score:** A média harmônica entre precisão e revocação. É útil quando há um desequilíbrio entre as classes.
