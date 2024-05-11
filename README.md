@@ -31,7 +31,9 @@ Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a
 
 **joblib:** Utilizado para armazenar o modelo ja treinado, assim podemos reutilizalo em outros projetos e ferramentas
 
-### - Parâmetros utilizados para avaliar os modelos
+**tkinter:** Biblioteca utilizada para deploy do projeto e criação de interfaces gráficas
+
+### Parâmetros utilizados para avaliar os modelos
 
 **1. Accuracy (Acurácia):** A proporção de exemplos classificados corretamente em relação ao total de exemplos.
 
